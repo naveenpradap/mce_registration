@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registered | {{ event_name }}</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+<style>
+  body { background:#030712; color:#fff; font-family:'Inter',sans-serif; min-height:100vh; }
+  .display { font-family:'Space Grotesk',sans-serif; }
+  .glass { background:rgba(15,23,42,.5); backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,.08); }
+  .grad { background-image:linear-gradient(to right,#22d3ee,#a855f7); }
+</style>
+</head>
+<body class="flex items-center justify-center px-4 py-12">
+  <div class="w-full max-w-md glass rounded-2xl p-8 text-center">
+    <div class="w-16 h-16 mx-auto rounded-full grad flex items-center justify-center text-3xl mb-4">✓</div>
+    <h1 class="display text-2xl font-bold mb-2">You're Registered!</h1>
+    <p class="text-gray-400 text-sm mb-4">Thanks, {{ name }}. Your registration (#{{ reg_id }}) has been received and is pending verification by the organizing team.</p>
+    <p class="text-xs text-gray-500 mb-6">You'll be contacted at your registered email once it's confirmed.</p>
+    <a href="/" class="inline-block grad text-white font-bold py-3 px-8 rounded-lg text-sm">Back to Home</a>
+  </div>
+</body>
+</html>
