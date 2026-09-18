@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Login | {{ event_name }}</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+<style>
+  body { background:#030712; color:#fff; font-family:'Inter',sans-serif; min-height:100vh; }
+  .display { font-family:'Space Grotesk',sans-serif; }
+  .glass { background:rgba(15,23,42,.5); backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,.08); }
+  .grad { background-image:linear-gradient(to right,#22d3ee,#a855f7); }
+  input { background:rgba(3,7,18,.6); border:1px solid rgba(255,255,255,.12); color:#fff; }
+  input:focus { outline:none; border-color:#22d3ee; box-shadow:0 0 0 2px rgba(34,211,238,.25); }
+</style>
+</head>
+<body class="flex items-center justify-center px-4 py-12">
+  <div class="w-full max-w-sm">
+    <h1 class="display text-2xl font-bold text-center mb-6">Admin Login</h1>
+    <form method="POST" class="glass rounded-2xl p-6 space-y-4">
+      {% if error %}
+        <div class="bg-red-500/10 border border-red-500/40 text-red-300 text-sm rounded-lg px-4 py-3">{{ error }}</div>
+      {% endif %}
+      <div>
+        <label class="block text-xs font-bold uppercase tracking-wide text-gray-400 mb-1">Username</label>
+        <input type="text" name="username" required class="w-full rounded-lg px-4 py-3 text-sm">
+      </div>
+      <div>
+        <label class="block text-xs font-bold uppercase tracking-wide text-gray-400 mb-1">Password</label>
+        <input type="password" name="password" required class="w-full rounded-lg px-4 py-3 text-sm">
+      </div>
+      <button type="submit" class="w-full grad text-white font-bold py-3 rounded-lg text-sm">Log In</button>
+    </form>
+  </div>
+</body>
+</html>
