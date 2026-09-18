@@ -74,7 +74,7 @@ Vercel deploys from a Git repo (GitHub/GitLab/Bitbucket), or via their CLI.
 **Via CLI:**
 ```bash
 npm i -g vercel
-cd intelligenz-backend
+
 vercel
 # follow prompts, then add env vars:
 vercel env add DATABASE_URL
