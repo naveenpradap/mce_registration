@@ -51,7 +51,7 @@ VALID_CATEGORIES = {"technical", "non-technical"}
 # Specific events offered under each track. Keep this in sync with the
 # event cards on the landing page (templates/index.html).
 EVENTS_BY_CATEGORY = {
-    "technical": ["PROMPT-A-THON", "INNNOV-EXPO", "WORKSHOP", "IDEA UNBOUND"],
+    "technical": ["PROMPT-A-THON", "INNOV-EXPO", "WORKSHOP", "PAPER TALKS"],
     "non-technical": ["E-SPORTS(BR)", "IPL AUCTION"],
 }
 EVENT_TO_CATEGORY = {

@@ -158,12 +158,12 @@
         }
 
         .mahendra-logo::before {
-            content: 'MAHENDRA INSTITUTIONS';
+            content: '';
             transform: rotate(-35deg);
         }
 
         .mahendra-logo::after {
-            content: 'MAHENDRA INSTITUTIONS';
+            content: '';
             transform: rotate(145deg);
             opacity: 0.42;
         }
@@ -356,7 +356,7 @@
                         <a href="#schedule" class="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors">Schedule</a>
                         <a href="#organizing" class="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors">Organizing</a>
                         <a href="#contact" class="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors">Contact</a>
-                        <a href="javascript:void(0)" class="register-action btn-solid-neon px-6 py-2 rounded-full text-sm font-bold uppercase tracking-wide">Register</a>
+                        <a href="javascript:void(0)" class="register-action btn-solid-neon px-6 py-2 rounded-full text-sm font-bold uppercase tracking-wide" data-event="">Register</a>
                     </div>
                 </div>
                 <!-- Mobile menu button -->
@@ -376,7 +376,7 @@
                 <a href="#schedule" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Schedule</a>
                 <a href="#organizing" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Organizing</a>
                 <a href="#contact" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
-                <a href="javascript:void(0)" class="register-action text-cyan-400 font-bold block px-3 py-2 rounded-md text-base">Register Now</a>
+                <a href="javascript:void(0)" class="register-action text-cyan-400 font-bold block px-3 py-2 rounded-md text-base" data-event="">Register Now</a>
             </div>
         </div>
     </nav>
@@ -389,7 +389,7 @@
             </div>
 
             <p class="gsap-hero-item department-label text-cyan-300 text-xs md:text-sm font-bold uppercase mb-4">
-                Department of Artificial Intelligence and Data Science
+                Department of Artificial Intelligence and Data Science conducting
             </p>
             
             <h1 class="gsap-hero-item font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4">
@@ -398,7 +398,7 @@
             </h1>
 
             <p class="gsap-hero-item text-cyan-400 text-sm md:text-base font-bold uppercase tracking-[0.35em] mb-6">
-                Conducting
+                Symposium
             </p>
             
             <p class="gsap-hero-item text-xl md:text-2xl text-gray-300 font-light tracking-wide mb-6">
@@ -410,7 +410,7 @@
             </p>
             
             <div class="gsap-hero-item flex flex-col sm:flex-row gap-6 justify-center w-full sm:w-auto">
-                <button class="register-action btn-solid-neon px-8 py-4 rounded-lg font-bold text-lg tracking-wider flex items-center justify-center gap-2 w-full sm:w-auto">
+                <button class="register-action btn-solid-neon px-8 py-4 rounded-lg font-bold text-lg tracking-wider flex items-center justify-center gap-2 w-full sm:w-auto" data-event="">
                     REGISTER NOW <i data-lucide="arrow-right" class="w-5 h-5"></i>
                 </button>
                 <a href="#events" class="btn-neon px-8 py-4 rounded-lg font-bold text-lg tracking-wider flex items-center justify-center gap-2 w-full sm:w-auto">
@@ -451,7 +451,7 @@
                     <!-- Placeholder for ThreeJS internal scene -->
                     <div id="about-canvas-container" class="absolute inset-0 w-full h-full"></div>
                     <div class="absolute bottom-6 left-6 right-6 text-center z-10 pointer-events-none">
-                        <div class="mahendra-logo" aria-label="Mahendra Institutions">
+                        <div class="mahendra-logo" aria-label="MCE">
                             <span class="mahendra-logo-mark">MCE</span>
                         </div>
                     </div>
@@ -531,8 +531,8 @@
                             <div class="event-card-inner flex flex-col h-full z-10">
                                 <span class="inline-block px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-400 text-xs font-bold uppercase tracking-wider mb-4 self-start border border-cyan-500/20">Technical</span>
                                 <h4 class="text-xl font-bold text-white mb-3">PROMPT-A-THON</h4>
-                                <p class="text-gray-400 text-sm mb-6 flex-grow">Test your programming skills by identifying and solving errors efficiently.</p>
-                                <button data-event="PROMPT-A-THON" class="register-action w-full py-3 rounded-lg border border-cyan-500/50 text-cyan-400 font-bold text-sm hover:bg-cyan-500 hover:text-navy-900 transition-colors uppercase tracking-wide">Register</button>
+                                <p class="text-gray-400 text-sm mb-6 flex-grow">A creative AI challenge where participants create effective prompts and solve interesting problems using AI.</p>
+                                <button class="register-action w-full py-3 rounded-lg border border-cyan-500/50 text-cyan-400 font-bold text-sm hover:bg-cyan-500 hover:text-navy-900 transition-colors uppercase tracking-wide" data-event="PROMPT-A-THON">Register</button>
                             </div>
                         </div>
                     </div>
@@ -545,9 +545,9 @@
                             </div>
                             <div class="event-card-inner flex flex-col h-full z-10">
                                 <span class="inline-block px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-xs font-bold uppercase tracking-wider mb-4 self-start border border-purple-500/20">Technical</span>
-                                <h4 class="text-xl font-bold text-white mb-3">INNNOV-EXPO</h4>
-                                <p class="text-gray-400 text-sm mb-6 flex-grow">Present innovative ideas and concepts through creative and informative posters.</p>
-                                <button data-event="INNNOV-EXPO" class="register-action w-full py-3 rounded-lg border border-purple-500/50 text-purple-400 font-bold text-sm hover:bg-purple-500 hover:text-white transition-colors uppercase tracking-wide">Register</button>
+                                <h4 class="text-xl font-bold text-white mb-3">INNOV-EXPO</h4>
+                                <p class="text-gray-400 text-sm mb-6 flex-grow">An exciting platform to showcase innovative ideas, creative projects, and new technologies</p>
+                                <button class="register-action w-full py-3 rounded-lg border border-purple-500/50 text-purple-400 font-bold text-sm hover:bg-purple-500 hover:text-white transition-colors uppercase tracking-wide" data-event="INNOV-EXPO">Register</button>
                             </div>
                         </div>
                     </div>
@@ -561,8 +561,8 @@
                             <div class="event-card-inner flex flex-col h-full z-10">
                                 <span class="inline-block px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-400 text-xs font-bold uppercase tracking-wider mb-4 self-start border border-cyan-500/20">Technical</span>
                                 <h4 class="text-xl font-bold text-white mb-3">WORKSHOP</h4>
-                                <p class="text-gray-400 text-sm mb-6 flex-grow">Showcase your creativity and problem-solving skills through engaging prompt challenges.</p>
-                                <button data-event="WORKSHOP" class="register-action w-full py-3 rounded-lg border border-cyan-500/50 text-cyan-400 font-bold text-sm hover:bg-cyan-500 hover:text-navy-900 transition-colors uppercase tracking-wide">Register</button>
+                                <p class="text-gray-400 text-sm mb-6 flex-grow">An interactive session focused on learning new skills through practical activities and expert guidance.</p>
+                                <button class="register-action w-full py-3 rounded-lg border border-cyan-500/50 text-cyan-400 font-bold text-sm hover:bg-cyan-500 hover:text-navy-900 transition-colors uppercase tracking-wide" data-event="WORKSHOP">Register</button>
                             </div>
                         </div>
                     </div>
@@ -575,9 +575,9 @@
                             </div>
                             <div class="event-card-inner flex flex-col h-full z-10">
                                 <span class="inline-block px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-xs font-bold uppercase tracking-wider mb-4 self-start border border-purple-500/20">Technical</span>
-                                <h4 class="text-xl font-bold text-white mb-3">IDEA UNBOUND</h4>
-                                <p class="text-gray-400 text-sm mb-6 flex-grow">Explore the power of AI by designing effective prompts and solving challenges using generative AI.</p>
-                                <button data-event="IDEA UNBOUND" class="register-action w-full py-3 rounded-lg border border-purple-500/50 text-purple-400 font-bold text-sm hover:bg-purple-500 hover:text-white transition-colors uppercase tracking-wide">Register</button>
+                                <h4 class="text-xl font-bold text-white mb-3">PAPER TALKS</h4>
+                                <p class="text-gray-400 text-sm mb-6 flex-grow">A platform for participants to present their research, ideas, and knowledge on emerging technologies.</p>
+                                <button class="register-action w-full py-3 rounded-lg border border-purple-500/50 text-purple-400 font-bold text-sm hover:bg-purple-500 hover:text-white transition-colors uppercase tracking-wide" data-event="PAPER TALKS">Register</button>
                             </div>
                         </div>
                     </div>
@@ -601,7 +601,7 @@
                                 <span class="inline-block px-3 py-1 rounded-full bg-gray-500/20 text-gray-300 text-xs font-bold uppercase tracking-wider mb-4 self-start border border-gray-500/30">Non-Technical</span>
                                 <h4 class="text-xl font-bold text-white mb-3">E-SPORTS(BR)</h4>
                                 <p class="text-gray-400 text-sm mb-6 flex-grow">Compete with strategy, teamwork and gaming skills in an exciting battle.</p>
-                                <button data-event="E-SPORTS(BR)" class="register-action w-full py-3 rounded-lg border border-purple-500/50 text-purple-400 font-bold text-sm hover:bg-purple-500 hover:text-white transition-colors uppercase tracking-wide">Register</button>
+                                <button class="register-action w-full py-3 rounded-lg border border-purple-500/50 text-purple-400 font-bold text-sm hover:bg-purple-500 hover:text-white transition-colors uppercase tracking-wide" data-event="E-SPORTS(BR)">Register</button>
                             </div>
                         </div>
                     </div>
@@ -615,8 +615,8 @@
                             <div class="event-card-inner flex flex-col h-full z-10">
                                 <span class="inline-block px-3 py-1 rounded-full bg-gray-500/20 text-gray-300 text-xs font-bold uppercase tracking-wider mb-4 self-start border border-gray-500/30">Non-Technical</span>
                                 <h4 class="text-xl font-bold text-white mb-3">IPL AUCTION</h4>
-                                <p class="text-gray-400 text-sm mb-6 flex-grow">Challenge your knowledge, speed and logical thinking across interesting questions.</p>
-                                <button data-event="IPL AUCTION" class="register-action w-full py-3 rounded-lg border border-cyan-500/50 text-cyan-400 font-bold text-sm hover:bg-cyan-500 hover:text-navy-900 transition-colors uppercase tracking-wide">Register</button>
+                                <p class="text-gray-400 text-sm mb-6 flex-grow">fun-filled mock IPL auction where participants build their own teams through strategy and smart bidding.</p>
+                                <button class="register-action w-full py-3 rounded-lg border border-cyan-500/50 text-cyan-400 font-bold text-sm hover:bg-cyan-500 hover:text-navy-900 transition-colors uppercase tracking-wide" data-event="IPL AUCTION">Register</button>
                             </div>
                         </div>
                     </div>
@@ -688,7 +688,7 @@
                         <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-navy-900 border-2 border-cyan-500 shadow-[0_0_10px_rgba(34,211,238,0.5)]"></div>
                         <div class="glass-panel p-6 rounded-xl border border-white/5">
                             <h4 class="text-xl font-bold text-white mb-1">Technical Events</h4>
-                            <p class="text-gray-400 text-sm">PROMPT-A-THON,IDEAS UNBOUND,INNOV-EXPO,WORKSHOP.</p>
+                            <p class="text-gray-400 text-sm">PROMPT-A-THON,INNOV-EXPO,WORKSHOP and PAPER TALKS.</p>
                         </div>
                     </div> 
                      <!-- Timeline Item -->
@@ -782,7 +782,7 @@
             <p class="text-xl text-gray-300 mb-10">
                 Register for INTELLI-GEN'Z 2K26 and participate in exciting technical and non-technical events. Prove your skills, innovate, and win.
             </p>
-            <button class="register-action btn-solid-neon px-10 py-5 rounded-lg font-bold text-xl tracking-wider inline-flex items-center gap-3 shadow-[0_0_30px_rgba(34,211,238,0.3)]">
+            <button class="register-action btn-solid-neon px-10 py-5 rounded-lg font-bold text-xl tracking-wider inline-flex items-center gap-3 shadow-[0_0_30px_rgba(34,211,238,0.3)]" data-event="">
                 REGISTER NOW <i data-lucide="external-link" class="w-6 h-6"></i>
             </button>
             <p class="mt-6 text-sm text-gray-500 flex items-center justify-center gap-2">
@@ -858,20 +858,20 @@
 
     <script>
         // --- CONFIGURATION VARIABLES ---
+        const REGISTRATION_LINK = "{{ url_for('register') }}";
         const MAP_LINK = "https://maps.app.goo.gl/ZsFaSXBRKB8tEzaV9?g_st=aw";
 
         // Initialize Icons
         lucide.createIcons();
 
-        // Attach Configuration Links - sends users into the live registration flow.
-        // Buttons on a specific event card carry data-event, so they skip the
-        // track chooser and land straight on that event's registration form.
+        // Attach Configuration Links
         document.querySelectorAll('.register-action').forEach(btn => {
             btn.addEventListener('click', () => {
-                const eventName = btn.getAttribute('data-event');
-                window.location.href = eventName
-                    ? `/register?event=${encodeURIComponent(eventName)}`
-                    : '/register';
+                const eventName = btn.dataset.event ? btn.dataset.event.trim() : '';
+                const targetUrl = eventName
+                    ? `${REGISTRATION_LINK}?event=${encodeURIComponent(eventName)}`
+                    : REGISTRATION_LINK;
+                window.location.href = targetUrl;
             });
         });
         document.getElementById('map-link-btn').href = MAP_LINK;
